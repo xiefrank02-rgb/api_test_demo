@@ -1,5 +1,4 @@
 from csv import DictWriter
-import pprint
 import time
 from typing import Any
 import requests
@@ -8,7 +7,6 @@ import configparser
 import uuid
 import os
 
-from urllib3.util import Url
 config = configparser.ConfigParser()
 config.read('config/config.ini', encoding='utf-8')
 
